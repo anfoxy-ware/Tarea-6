@@ -13,7 +13,7 @@ class AboutScreen extends StatelessWidget {
           children: [
             // Carga tu foto desde una URL
             Image.network(
-              'https://media.licdn.com/dms/image/D5603AQFWi5HMYzVT6A/profile-displayphoto-shrink_200_200/0/1719270654784?e=2147483647&v=beta&t=GvmHKsKxfpizZrfv2tYe5M1mnPldTR98qEo-Zhwtg-A', // Reemplaza con tu imagen
+              'https://media.licdn.com/dms/image/D5603AQFWi5HMYzVT6A/profile-displayphoto-shrink_200_200/0/1719270654784?e=2147483647&v=beta&t=GvmHKsKxfpizZrfv2tYe5M1mnPldTR98qEo-Zhwtg-A',
               width: 150,
               height: 150,
               errorBuilder: (context, error, stackTrace) {
@@ -37,7 +37,7 @@ class AboutScreen extends StatelessWidget {
             ),
             SizedBox(height: 10), // Espacio antes de la descripción
             Text(
-              'Descripción breve sobre ti o tus habilidades.', // Breve descripción
+              'Desarrollador de Software', // Breve descripción
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 16),
             ),
