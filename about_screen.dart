@@ -32,7 +32,7 @@ class AboutScreen extends StatelessWidget {
             ),
             SizedBox(height: 10), // Espacio entre el correo y el teléfono
             Text(
-              'Teléfono: +1849-253.2598', // Tu número de teléfono
+              'Teléfono: +1849-253-2598', // Tu número de teléfono
               style: TextStyle(fontSize: 16),
             ),
             SizedBox(height: 10), // Espacio antes de la descripción
